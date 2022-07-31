@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    background: linear-gradient(#0e0309 0%,#580909 90%);
+    height: 100%;
+}
+.box{
+    width: 46%;
+    border-right: 5px solid rgb(60,60,66);
+    border-bottom-right-radius: 5%;
+    text-align: center;
+    background: linear-gradient(#611446 0%,#585454 90%);
+    height: 684px;
+}
+.box h1{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
+nav{
+    background: linear-gradient(#0b0235 0%,#8b8bff 100%);
+    text-align: center;
+    font-size: 200%;
+    background-color: rgb(255,115,115);
+}
+.Form{
+    margin: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 500px;
+    width:86%;
+    text-align: center;
+}
+#namediv{
+   margin-top: 20px;
+}
+input[type="text"]
+{
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 70%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.input{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: -180px;
+    margin-top: 20px;
+}
+.inputF{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+input[type=radio]
+{
+    border: 0px;
+    width: 4%;
+    height: 2em;
+    margin-left: 24px;
+}
+#entry{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(63, 11, 29);
+    color: rgb(248,239,239);
+    box-sizing: 0 2px 2px 0 rgba(0,0,0,0.5);
+    align-self: center;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+#entry:hover{
+    background-color: rgb(182,175,255);
+    color: rgb(14,0,59);
+}
+.table{
+    position: fixed;
+    top:7%;
+    right: 1%;
+    width: 52%;
+    margin-top: 2px;
+    margin-left: 50%;
+    padding: 4px;
+    float: center;
+    text-align: center;
+    background: rgb(179,51,147);
+    color: #fff;
+}
+table,th,td{
+    width: 100%;
+    border: 2px solid white;
+    padding: 10px;
+}
